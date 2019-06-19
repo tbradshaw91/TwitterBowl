@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TwitterBowl - {{ title }}</title>
+        <!-- Css, Keywords, metadata goes here -->
+    </head>
+
+
+    <body>
+        <h1>TwitterBowl!</h1>
+        <p>Content for TwitterBowl will go here...</p>
+
+        <ul>
+            {% for user in users %}
+            <li>{{ user.name }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
